@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	background-image: url("images/fondo.jpg"); 
+}
+
+#encabezado {
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cabezote {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/*Se diseñará la botonera:*/
+#navegacion {
+ background: #000000;
+ color: #ffffff;
+ padding: 20px;
+ overflow: auto;
+}
+/*Se modificarán para mejor legibilidad los ítems
+de la botonera*/
+#navegacion li {
+	list-style-type: none;
+	margin: 5px;
+	padding: 20px;
+	background: #474747;
+	float: left;
+	position: relative;
+	left: 25%;
+}
+
+#navegacion li.actual1 {
+	background: #F0EC18;
+}
+
+#navegacion li.actual2 {
+	background: #0000dd;
+}
+
+#navegacion li.actual3 {
+	background: #dd0000;
+}
+
+
+/*Los links que se muestran en la botonera se verán
+mejor*/
+#navegacion li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#navegacion li a:hover {
+	font-weight: bold;
+}
+
+#contenido_principal {
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h4 {
+	border-bottom: 3px #dd0000 solid;
+}
+
+table {
+	width: 980px;
+	margin-left: auto; 
+    margin-right: auto;
+}
+
+.ventana {
+	width: 316px;
+}
+
+div {
+	display: block;
+}
+
+div.destacado {
+	float: left;
+    height: 250px;
+    width: 316px;
+    font-family: calibri;
+    color: #FFF;
+}
+
+.destacado_img {
+	float: left;
+    height: 178px;
+    width: 316px;
+}
+
+.destacado_txt_t1 {
+	background-color: #D9D927;
+    padding: 13px;
+    float: left;
+    height: 44px;
+    width: 290px;
+   	font-size: 0.6875em;
+}
+
+
+.destacado_txt_t2 {
+	background-color: #1F32AD;
+    padding: 13px;
+    float: left;
+    height: 44px;
+    width: 290px;
+   	font-size: 0.6875em;
+}
+
+.destacado_txt_t3 {
+	background-color: #812113;
+    padding: 13px;
+    float: left;
+    height: 44px;
+    width: 290px;
+   	font-size: 0.6875em;
+}
+
+
+.destacado_tit {
+	color: #fff !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
